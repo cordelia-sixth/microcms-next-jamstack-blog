@@ -4,7 +4,7 @@ import { client } from "../libs/client";
 export default function Home({ blog }) {
   return (
     <div>
-      <h1>トップページ</h1>
+      <h1>開発中です</h1>
       <ul>
         {blog.map((blog) => (
           <li key={blog.id}>
